@@ -1,0 +1,8 @@
+opencv-python~=4.5.5.62
+torch~=1.8.1+cu111
+numpy~=1.22.2
+pillow~=9.0.1
+matplotlib~=3.5.1
+scikit-learn~=1.2.0
+einops~=0.6.0
+yacs~=0.1.8
