@@ -24,7 +24,7 @@
 [//]: # (PEGTB-MIL utilizes positional encoding to effectively guide and reinforce MIL, leading to enhanced performance on downstream WSI classification tasks. Specifically, the introduced auxiliary reconstruction module adeptly preserves the spatial-semantic consistency of patch features. More significantly, this study investigates the relationship between position information and disease diagnosis and presents a promising avenue for further research.)
 
 ## Authers:
-Jun Shia, Dongdong Sun, Kun Wu, Zhiguo Jiang, Xue Kong, Wei Wang, Haibo Wu, and Yushan Zheng.
+Jun Shi, Dongdong Sun, Kun Wu, Zhiguo Jiang, Xue Kong, Wei Wang, Haibo Wu, and Yushan Zheng.
 
 
 [Yushan Zheng](https://zhengyushan.github.io/) is the corresponding author.
