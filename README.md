@@ -45,7 +45,7 @@ E-mail: yszheng@buaa.edu.cn
   -slide-2_coordinates.pth
   ......
   -slide-n_feature.pth
-  -slide-n_coordinates.path
+  -slide-n_coordinates.pth
  
  xxx_feature.pth -> shape: number_patches, feaure_dim
  xxx_coordinates.pth -> shape: number_patches, 2(row, col)
