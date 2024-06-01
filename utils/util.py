@@ -61,14 +61,12 @@ def merge_config_to_args(args, cfg):
     args.test_csv = cfg.DATA.TEST_CSV
 
     # Model
-    args.arch = cfg.MODEL.ARCH
     args.feat_dim = cfg.MODEL.FEATURE_DIM
     args.num_class = cfg.MODEL.NUM_CLASS
-    args.trans_dim = cfg.MODEL.TRANS_DIM
     args.mask_ratio = cfg.MODEL.MASK_RATIO
-    args.mask_p = cfg.MODEL.MASK_P
-    args.dropout = cfg.MODEL.DROPOUT
-    args.loss_weights = cfg.MODEL.LOSS_WEIGHTS
+    args.pos_dim = cfg.MODEL.POS_DIM
+    args.later_dim = cfg.MODEL.LATER_DIM
+    args.loss_weight = cfg.MODEL.LOSS_WEIGHT
     args.return_atte = cfg.MODEL.RETURN_ATTE
     args.return_pred_coordinates = cfg.MODEL.RETURN_PRED_COORDINATES
     args.return_pos_error = cfg.MODEL.RETURN_POS_ERROR
@@ -79,7 +77,6 @@ def merge_config_to_args(args, cfg):
     args.lr = cfg.TRAIN.LR
     args.weight_decay = cfg.TRAIN.WEIGHT_DECAY
     args.max_epoch = cfg.TRAIN.MAX_EPOCH
-    args.show_interval = cfg.TRAIN.SHOW_INTERVAL
     args.weights_save_path = cfg.TRAIN.WEIGHTS_SAVE_PATH
 
 def coords_norm(coords):
