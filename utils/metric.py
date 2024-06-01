@@ -156,7 +156,7 @@ def draw_muti_roc_curve(true_labels, pred_probs, class_names=None, save_path=Non
 
 def macro_auc(y_true, y_score, multi_class=False, n_classes=None):
     if multi_class:
-        return roc_auc_score(y_true, y_score, average="macro", multi_class='ovo')
+        return roc_auc_score(y_true, y_score, average="macro", multi_class='ovr')
     else:
         return roc_auc_score(y_true, y_score, average="macro")
 
