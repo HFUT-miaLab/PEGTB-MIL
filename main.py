@@ -197,6 +197,7 @@ if __name__ == "__main__":
     test_macro_f1_5fold_model = []
 
     # Fix_random_seeds
+
     fix_random_seeds()
     for fold in range(5):
         # Model init
@@ -209,7 +210,8 @@ if __name__ == "__main__":
                          return_pos_error=args.return_pos_error
         )
         if torch.cuda.is_available():
-            model = model.cuda()
+            args.device = torch.device('cuda:0')
+            model = model.to(args.device)
         print("\tPEGTB-MIL mask_ratio:{} pos_dim:{} later_dim:{} loss_weight:{}".format(args.mask_ratio,
                                                                                         args.pos_dim,
                                                                                         args.later_dim,

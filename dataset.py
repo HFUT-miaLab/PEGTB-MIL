@@ -47,7 +47,7 @@ class TrainValDataset(data.Dataset):
             else:
                 select_index = torch.LongTensor(random.sample(range(N), N))
             feature_data = torch.index_select(feature_data, 0, select_index)
-
+            coordinates = torch.index_select(coordinates, 0, select_index)
         return feature_data, coordinates, label
 
     def __len__(self):
