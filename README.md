@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ```
 
 
-## 4. Run:
+## Run:
 ```shell
 python main.py
 ```
