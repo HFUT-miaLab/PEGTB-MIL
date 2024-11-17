@@ -63,3 +63,23 @@ pip install -r requirements.txt
 ```shell
 python main.py
 ```
+
+## Citation
+
+Please cite this work if you used it in your research via
+```
+@article{shi2024positional,
+  title={Positional encoding-guided transformer-based multiple instance learning for histopathology whole slide images classification},
+  author={Shi, Jun and Sun, Dongdong and Wu, Kun and Jiang, Zhiguo and Kong, Xue and Wang, Wei and Wu, Haibo and Zheng, Yushan},
+  journal={Computer Methods and Programs in Biomedicine},
+  pages={108491},
+  year={2024},
+  publisher={Elsevier}
+}
+```
+
+or
+
+```
+Shi J, Sun D, Wu K, et al. Positional Encoding-Guided Transformer-Based Multiple Instance Learning for Histopathology Whole Slide Images Classification[J]. Computer Methods and Programs in Biomedicine, 2024: 108491.
+```
